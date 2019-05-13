@@ -1,0 +1,9 @@
+\usepackage[a4paper, hmargin=25mm, vmargin=30mm, top=20mm]{geometry} % Use A4 paper and set margins
+\usepackage{fancyhdr}
+\usepackage{lastpage} % Required for calculating the number of pages in the document
+\usepackage{amsmath}
+\usepackage{enumerate}
+\usepackage{graphicx}
+
+\usepackage{float}
+\usepackage{lipsum}

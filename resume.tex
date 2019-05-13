@@ -1,19 +1,90 @@
-%����˵���ĵ����ͣ���book,report,letter
-\documentclass[twocolumn]{moderncv}
-%����������صİ�������C�����е�ͷ�ļ�
-\usepackage{amsmath}
-\usepackage{enumerate}
-\usepackage{graphicx}
-\usepackage{fancyhdr}
-\usepackage{float}
-\usepackage{lipsum}
-\pagestyle{fancy}
-\lhead{���̿���}
-\chead{}
-\rhead{��ˮ���������벹���ݴ����Ʒ���}
-%ǰ���ǵ�������������������
+﻿% !Mode:: "TeX:UTF-8"
+%用来说明文档类型，有book,report,letter
+\documentclass[UTF8]{ctexart}
+\input{structure.tex} % Include the file specifying document layout
 
+\begin{document}
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+\title{殷仕佳 -- 简历} % Print the main header
 
+%------------------------------------------------
 
+\parbox{0.5\textwidth}{ % First block
+\begin{tabbing} % Enables tabbing
+\hspace{3cm} \= \hspace{4cm} \= \kill % Spacing within the block
+{\bf Address} \>  宿迁市,\\ % Address line 1
+\> 江苏省, 123800 \\ % Address line 2
+{\bf Date of Birth} \> 1995.8.15 \\ % Date of birth
+{\bf Nationality} \> 中国 % Nationality
+\end{tabbing}}
+\hfill % Horizontal space between the two blocks
+\parbox{0.5\textwidth}{ % Second block
+\begin{tabbing} % Enables tabbing
+\hspace{3cm} \= \hspace{4cm} \= \kill % Spacing within the block
+{\bf Home Phone} \> 15062239284 \\ % Home phone
+{\bf Mobile Phone} \> 15189833052 \\ % Mobile phone
+{\bf Email} \> 1040283480@qq.com \\ % Email address
+\end{tabbing}}
+
+%----------------------------------------------------------------------------------------
+%	PERSONAL PROFILE
+%----------------------------------------------------------------------------------------
+
+\section{个人简介}
+我的名字叫做殷仕佳，是南京工业大学的2020级毕业生
+
+\section{教育经历}
+
+\tabbedblock{
+\bf{2016-2020} \> 南京工业大学-电气工程与控制科学学院-自动化系\\[5pt]
+\>GPA   3.6/4\\
+\>一次国家励志奖学金，多次校奖学金
+}
+
+\section{项目经历}
+\tabbedblock{
+\bf{2017.2-2017.3} \> \ \ 基于STM32的避障小车\\[5pt]
+\>\ \ 为弟弟做的玩具\\
+\>\ \ 独立开发\\
+\>\ \ 效果不好，由于当时能力所限，以及身边实验器材不足，导致小车的硬件部分设计的不好，\\
+\>\ \ 直接导致软件功能发挥不出来。
+}
+
+\tabbedblock{
+\bf{2018.7-2018.9} \> \ \ 利用深度学习进行交通标志识别\\[5pt]
+\>\ \ 用于参加本科生科技论坛\\
+\>\ \ 团队开发，本人负责算法设计\\
+\>\ \ 三等奖
+}
+
+\tabbedblock{
+\bf{2018.9-2019.1} \> \ \ 基于ANT协议的心率传感器设计\\[5pt]
+\>\ \ 学校课程\\
+\>\ \ 团队开发，本人负责通信功能的实现，以及信息的的解释提取。\\
+\>\ \ 我们团队是第一个实现功能并且结束课程设计的。
+}
+
+\tabbedblock{
+\bf{2018.9-2019.3} \> \ \ 基于摄像头的高速运动小车\\[5pt]
+\>\ \ 参加学校的智能车比赛\\
+\>\ \ 团队开发，本人负责小车小车图像处理算法，运动控制算法设计以及电路板核心板设计。\\
+\>\ \ 摄像头组一等奖
+}
+
+%----------------------------------------------------------------------------------------
+%	IT/COMPUTING SKILLS SECTION
+%----------------------------------------------------------------------------------------
+\clearpage
+\section{技能与理论}
+\subsection{编程语言}
+熟悉C，接触过C++，python，matlab, html等，同时了解一些标记语言如markdown，能够使用latex来完成一些简单的满足自己需求的排版工作。
+\subsection{IT理论}
+自学过《计算机组成原理》、《计算机网络》、《现代操作系统》。
+\subsection{控制理论}
+《经典控制》、《现代控制》、《过程控制》、《智能控制》
+\subsection{硬件基础}
+《数电模电》、《电路分析》、《电机拖动》、《过程仪表》
 
 \end{document}

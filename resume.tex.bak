@@ -1,0 +1,38 @@
+﻿% !Mode:: "TeX:UTF-8"
+%用来说明文档类型，有book,report,letter
+\documentclass[UTF8]{ctexart}
+\input{structure.tex} % Include the file specifying document layout
+
+\begin{document}
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+\title{殷仕佳 -- Resume} % Print the main header
+
+%------------------------------------------------
+
+\parbox{0.5\textwidth}{ % First block
+\begin{tabbing} % Enables tabbing
+\hspace{3cm} \= \hspace{4cm} \= \kill % Spacing within the block
+{\bf Address} \>  宿迁市,\\ % Address line 1
+\> 江苏省, 123800 \\ % Address line 2
+{\bf Date of Birth} \> 1995.8.15 \\ % Date of birth
+{\bf Nationality} \> 中国 % Nationality
+\end{tabbing}}
+\hfill % Horizontal space between the two blocks
+\parbox{0.5\textwidth}{ % Second block
+\begin{tabbing} % Enables tabbing
+\hspace{3cm} \= \hspace{4cm} \= \kill % Spacing within the block
+{\bf Home Phone} \> 15062239284 \\ % Home phone
+{\bf Mobile Phone} \> 15189833052 \\ % Mobile phone
+{\bf Email} \> 1040283480@qq.com \\ % Email address
+\end{tabbing}}
+
+%----------------------------------------------------------------------------------------
+%	PERSONAL PROFILE
+%----------------------------------------------------------------------------------------
+
+\section{Personal Profile}
+我的名字叫做殷仕佳，是南京工业大学的2020级毕业生
+
+\end{document}
